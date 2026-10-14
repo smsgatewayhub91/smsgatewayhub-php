@@ -1,0 +1,34 @@
+{
+    "name": "smsgatewayhub/smsgatewayhub",
+    "description": "Official SMSGatewayHub PHP SDK: classic SMS API, CPaaS messages with fallback (WhatsApp, SMS, RCS, Email), OneTap Verify and Email Verification.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["sms", "whatsapp", "rcs", "email", "otp", "cpaas", "smsgatewayhub", "onetap-verify", "email-verification"],
+    "homepage": "https://www.smsgatewayhub.com/sdks",
+    "authors": [
+        {
+            "name": "SMS Gateway Hub",
+            "email": "support@smsgatewayhub.com",
+            "homepage": "https://www.smsgatewayhub.com"
+        }
+    ],
+    "support": {
+        "email": "support@smsgatewayhub.com",
+        "docs": "https://www.smsgatewayhub.com/api-developer-hub",
+        "source": "https://github.com/smsgatewayhub91/smsgatewayhub-php",
+        "issues": "https://github.com/smsgatewayhub91/smsgatewayhub-php/issues"
+    },
+    "require": {
+        "php": ">=7.2",
+        "ext-json": "*"
+    },
+    "suggest": {
+        "ext-curl": "Preferred HTTP transport; PHP streams are used when it is missing",
+        "ext-openssl": "Required for HTTPS when ext-curl is missing"
+    },
+    "autoload": {
+        "psr-4": {
+            "SmsGatewayHub\\": "src/"
+        }
+    }
+}
